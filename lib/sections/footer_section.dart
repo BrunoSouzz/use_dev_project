@@ -7,7 +7,6 @@ class FooterSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        // Parte Superior: Newsletter (Verde)
         Container(
           width: double.infinity,
           color: const Color(0xFF8FFF24),
@@ -63,7 +62,6 @@ class FooterSection extends StatelessWidget {
           ),
         ),
 
-        // Parte Inferior: Informações e Redes (Escuro)
         Container(
           width: double.infinity,
           color: const Color(0xFF0D0221),
